@@ -364,9 +364,9 @@ form {
 }
 
 .home-page {
-  margin-top: 100px !important
-  font-size: 50px;
-  color: black;
+  margin-top: 100px !important;
+  font-size: 50px !important;
+  text-shadow: -1px 3px 0 #30575c, -1px 3px 0 #282c34, -1px 6px 0 #1a1919 !important;
 }
 
   .footer-container {
