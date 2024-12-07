@@ -355,6 +355,10 @@ form {
   /* margin-top: 0; */
 }
 
+  .price-label {
+    color: #30575c;
+  }
+
 .app {
   /* background-color: white; */
 }
@@ -365,8 +369,19 @@ form {
 
 .home-page {
   margin-top: 100px !important;
-  font-size: 50px !important;
   text-shadow: -1px 3px 0 #30575c, -1px 3px 0 #282c34, -1px 6px 0 #1a1919 !important;
+}
+
+.home-page h1{
+  font-size: 4rem;
+}
+
+.home-page p {
+  font-size: 1rem;
+}
+
+.home-page small {
+  font-size: 0.5rem;
 }
 
   .footer-container {
