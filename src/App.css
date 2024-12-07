@@ -357,6 +357,7 @@ form {
 
   .price-label {
     color: #30575c;
+    font-weight: bold;
   }
 
 .app {
@@ -368,8 +369,7 @@ form {
 }
 
 .home-page {
-  margin-top: 100px !important;
-  text-shadow: -1px 3px 0 #30575c, -1px 3px 0 #282c34, -1px 6px 0 #1a1919 !important;
+  text-shadow: -1px 1px 0 #30575c, -1px 1px 0 #282c34, -1px 3px 0 #1a1919 !important;
 }
 
 .home-page h1{
@@ -377,11 +377,11 @@ form {
 }
 
 .home-page p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .home-page small {
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 
   .footer-container {
