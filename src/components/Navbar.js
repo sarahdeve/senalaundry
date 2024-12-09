@@ -15,8 +15,8 @@ const Navbar = () => {
       <BootstrapNavbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">
           {/* <Nav.Link as={Link} disabled to="/">Home</Nav.Link> */}
-          <Nav.Link as={Link} to="/price-list">Price List</Nav.Link>
-          <NavDropdown title="More" id="basic-nav-dropdown dropDownMore">
+          <Nav.Link className='navLinkClolor' as={Link} to="/price-list">Price List</Nav.Link>
+          <NavDropdown className='navLinkClolor' title="More" id="basic-nav-dropdown dropDownMore">
             <NavDropdown.Item as={Link} to="/services">Services</NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/about">About Us</NavDropdown.Item>
           </NavDropdown>

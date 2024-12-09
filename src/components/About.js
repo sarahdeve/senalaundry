@@ -33,7 +33,8 @@ const About = () => {
     setIsSending(true);
 
     try {
-      const response = await fetch('https://formspree.io/f/movqbvjz', {
+      // const response = await fetch('https://formspree.io/f/movqbvjz', {
+      const response = await fetch('https://formspree.io/f/mrbgvpro', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -117,7 +118,7 @@ const About = () => {
       <div className='mt-4 '>
         <h2 className='aboutpageGetintouch'>Get In Touch</h2>
         <p>Phone: +234 8145056692</p>
-        <p>Email: zehnah0@gmail.com</p>
+        <p>Email: senalaundrey@gmail.com</p>
         <p>Address: Ibadan. Nigeria</p>
       </div>
     </div>

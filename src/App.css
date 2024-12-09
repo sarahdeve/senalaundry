@@ -115,12 +115,12 @@ html, body {
 }
 
 .navbar-custom .nav-link {
-  /* color: #f8f9fa; Set the color for nav links */
+  /* color: #f8f9fa;  */
   color: rgb(31, 122, 107);
 }
 
 .navbar-custom .nav-link:hover {
-  color: #ffc107; /* Change color on hover */
+  color: #111111;
 }
 
 .navbar-custom .dropdown-item {
@@ -360,9 +360,17 @@ form {
     font-weight: bold;
   }
 
-.app {
-  /* background-color: white; */
-}
+  .navbar-custom {
+    background-color: rgba(20, 20, 20, 0.171);
+    /* backdrop-filter: blur(10px); */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-custom .nav-link {
+    /* color: #f8f9fa;  */
+    background-color: rgb(206, 198, 198);
+  }
 
 .dropDownMore{
   background-color: #ced4da !important;
@@ -382,6 +390,10 @@ form {
 
 .home-page small {
   font-size: 1rem;
+}
+
+.servicePage {
+  /* margin-top: 15px; */
 }
 
   .footer-container {
